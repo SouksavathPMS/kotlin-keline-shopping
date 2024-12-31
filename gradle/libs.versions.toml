@@ -8,20 +8,22 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.9.3"
 composeBom = "2024.12.01"
-loading-button = "2.2.0"
-glide = "4.13.0"
-circle-image = "3.1.0"
-viewpager-indicator = "1.0.0-alpha.1"
-stepview = "1.5.1"
+#loading-button = "2.2.0"
+#glide = "4.13.0"
+#circle-image = "3.1.0"
+#viewpager-indicator = "1.0.0-alpha.1"
+#stepview = "1.5.1"
 navigation = "2.8.5"
 hilt = "2.50"
-appcompat = "1.7.0"
-material = "1.12.0"
-activity = "1.9.3"
-constraintlayout = "2.1.4"
+navigationUiKtx = "2.8.5"
+#appcompat = "1.7.0"
+#material = "1.12.0"
+#activity = "1.9.3"
+#constraintlayout = "2.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -35,18 +37,18 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
-loading-button = { group = "br.com.simplepass", name = "loading-button-android", version.ref = "loading-button" }
-glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
-circle-imageview = { group = "de.hdodenhof", name = "circleimageview", version.ref = "circle-image" }
-viewpager-indicator = { group = "io.github.vejei", name = "viewpagerindicator", version.ref = "viewpager-indicator" }
-stepview = { group = "com.shuhart", name = "stepview", version.ref = "stepview" }
+#loading-button = { group = "br.com.simplepass", name = "loading-button-android", version.ref = "loading-button" }
+#glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+#circle-imageview = { group = "de.hdodenhof", name = "circleimageview", version.ref = "circle-image" }
+#viewpager-indicator = { group = "io.github.vejei", name = "viewpagerindicator", version.ref = "viewpager-indicator" }
+#stepview = { group = "com.shuhart", name = "stepview", version.ref = "stepview" }
 navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
-androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
-androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
-androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+#androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+#material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+#androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+#androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
