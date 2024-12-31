@@ -67,18 +67,22 @@ dependencies {
     implementation(libs.androidx.navigation.ui.ktx)
     // Loading Button
 //    implementation(libs.loading.button)
+    implementation(libs.loading.button.android)
+
 
     // Glide
-//    implementation(libs.glide)
+    implementation(libs.glide)
 
     // CircleImageView
-//    implementation(libs.circle.imageview)
+    implementation(libs.circleimageview)
+
 
     // ViewPager Indicator
-//    implementation(libs.viewpager.indicator)
+    implementation(libs.dotsindicator)
+
 
     // StepView
-//    implementation(libs.stepview)
+    implementation(libs.stepview)
 
     // Navigation
     implementation(libs.navigation.fragment)
