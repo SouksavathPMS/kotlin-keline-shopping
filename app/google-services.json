@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799376262553",
+    "project_id": "kelineyt-54fb3",
+    "storage_bucket": "kelineyt-54fb3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799376262553:android:1b79d6a70467be078dff08",
+        "android_client_info": {
+          "package_name": "com.kelineyt.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDjnGuaPICtsk5yhHWFB4PvoAaiaCSUWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
